@@ -1,0 +1,6 @@
+rootProject.name = 'multi-project'
+include()
+include 'core'
+include 'core:api'
+findProject(':core:api')?.name = 'api'
+
