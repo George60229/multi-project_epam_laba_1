@@ -3,4 +3,5 @@ include()
 include 'core'
 include 'core:api'
 findProject(':core:api')?.name = 'api'
+include 'core'
 
