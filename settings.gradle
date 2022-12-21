@@ -1,4 +1,4 @@
-rootProject.name = 'multi-project'
+rootProject.name = 'multi-project_epam_laba_1'
 include()
 include 'core'
 include 'api'
